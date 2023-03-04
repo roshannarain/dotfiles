@@ -19,6 +19,11 @@ zmodule termtitle
 # Utility aliases and functions. Adds colour to ls, grep and less.
 zmodule utility
 
+zmodule asdf
+zmodule exa
+zmodule fzf
+zmodule magic-enter
+
 #
 # Prompt
 #
@@ -46,6 +51,8 @@ zmodule completion
 
 zmodule joke/zim-chezmoi
 zmodule joke/zim-github-cli
+zmodule joke/zim-steampipe
+zmodule kiesman99/zim-zoxide
 
 #
 # Modules that must be initialized last

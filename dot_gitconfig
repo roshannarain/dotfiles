@@ -1,0 +1,37 @@
+[user]
+	name = rosh
+	email = roshan.narain@ipsos.com
+[init]
+	defaultBranch = main
+[alias]
+        # log, current branch
+        glg = log --oneline --decorate --all --graph
+
+        # status
+        s = status
+        st = status
+
+        # add
+        a = add
+        aa = add --all
+        ap = add --patch
+        au = add --update
+
+        # commit
+        c = commit
+        ca = commit --amend
+        cam = commit --amend --message
+        cane = commit --amend --no-edit
+        ci = comnit --interactive
+        cm = commit --message
+
+        # checkout
+        co = checkout
+[credential]
+        helper =
+	helper = /mnt/c/Program\\ Files/Git/mingw64/bin/git-credential-manager-core.exe
+[credential "https://github.com"]
+        helper =
+        helper = !/usr/bin/gh auth git-credential
+[credential "https://dev.azure.com"]
+	useHttpPath = true
